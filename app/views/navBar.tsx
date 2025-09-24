@@ -23,21 +23,21 @@ export default function NavBar() {
             </div>
             <div className="md:w-1/4 flex flex-row py-2.5 
             justify-between md:justify-around">
-                <div className="mr-2 md:mr-0">
-                    <button type="button" className="w-fit p-2 dark:text-black
+                <div>
+                    <button type="button" className="w-fit p-1 md:p-2 dark:text-black
                     bg-gray-200 rounded-2xl hover:scale-110">
                     <Image size={18} color="black" 
                     className="inline-block" /> Gallery
                     </button>
                 </div>
-                <div className="mr-2 md:mr-0">
-                    <button type="button" className="w-fit p-2
+                <div className="mr-1 md:mr-0">
+                    <button type="button" className="w-fit p-1 md:p-2
                     bg-gray-200 rounded-2xl hover:scale-110 dark:text-black">
                     <Headphones size={18} color="black" 
                     className="inline-block" /> Support
                     </button>
                 </div>
-                <div className="mr-1 md:mr-0">
+                <div>
                     <button type="button" className="w-fit p-1
                     bg-gray-200 rounded-full text-black">
                         <Bell size={20} color="black" />
@@ -52,4 +52,5 @@ export default function NavBar() {
             </div>
         </div>
     )
+
 }
